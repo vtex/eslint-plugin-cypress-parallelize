@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-cypress-parallelize",
+  "version": "0.0.1",
+  "description": "Allow only one describe and it calls per file so is easier to parallelize their use",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Guilherme Bruzzi",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "prereleasy": "npm run test",
+    "postreleasy": "npm publish",
+    "release": "releasy --stable"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "mocha": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
