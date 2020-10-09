@@ -52,7 +52,7 @@ ruleTester.run('allow-only-one-test-per-file', rule, {
     },
     {
       code:
-        "describe('describe 1', () => { it('test 1', () => { /* test body */ }); }); describe('describe 2', () => { /* describe body */ }); ",
+        "describe('describe 1', () => { it('test 1', () => { /* test body */ }) }); describe('describe 2', () => { it('test 2', () => { /* test body */ }) })",
       errors: [
         {
           message:
