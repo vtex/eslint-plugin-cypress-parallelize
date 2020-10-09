@@ -1,4 +1,4 @@
-# eslint-plugin-cypress-only-one-test-per-file
+# eslint-plugin-cypress-parallelize
 
 Allow only one describe and it calls per file so is easier to parallelize their use
 
