@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-cypress-parallelize",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Allow only one describe and it calls per file so is easier to parallelize their use",
   "keywords": [
     "eslint",
